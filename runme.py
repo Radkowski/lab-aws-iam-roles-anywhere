@@ -31,9 +31,9 @@ def define_exports(ex_type, ex_value):
 
 def print_exports(creds):
     values = [
-        ['AWS_ACCESS_KEY_ID','AccessKeyId'],
-        ['AWS_SECRET_ACCESS_KEY','SecretAccessKey'],
-        ['AWS_SESSION_TOKEN','SessionToken']
+        ['export AWS_ACCESS_KEY_ID','AccessKeyId'],
+        ['export AWS_SECRET_ACCESS_KEY','SecretAccessKey'],
+        ['export AWS_SESSION_TOKEN','SessionToken']
             ]
     for x in values:
         define_exports(x[0],creds[x[1]])
