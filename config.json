@@ -1,0 +1,10 @@
+{
+
+  "Region": "us-east-1",
+  "AccountID": "CHANGEME",
+  "certificate_file": "CHANGEME",
+  "certificate_key": "CHANGEME",
+  "AnchorID": "XXXXXXXX-YYYY-ZZZZ-AAAA-BBBBBBBBBBBB",
+  "ProfileID": "CCCCCCCC-DDDD-EEEE-FFFF-GGGGGGGGGGGG",
+  "RoleName": "RoleName-CHANGEME"
+}
